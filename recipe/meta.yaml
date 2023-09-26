@@ -1,5 +1,5 @@
 {% set name = "colcon-recursive-crawl" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/colcon/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: cdce1cd4e1c6f64b6f48425189a94a7c405e62ce3adf447a114c98881fff6730
+  sha256: 5a673c883323480d672dca41ea37ee01ac2a7fa81f687b74a78e51d309c4d07f
 
 build:
   number: 0
